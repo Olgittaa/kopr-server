@@ -1,10 +1,12 @@
 package sk.upjs.ics.kopr.soap.server;
 
+import javax.jws.WebService;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@WebService
 public class DefaultTermService {
     private List<Term> terms = new ArrayList<Term>();
 
